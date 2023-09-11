@@ -24,7 +24,7 @@ jobs:
         run: |
           pwd
           ls
-          cp -R exampleSite/* .
+          cp -R website/* .
           hugo --themesDir ../ --baseURL https://seeu100.github.io/WebStack-Hugo/
           
       - name: Deploy Pages
